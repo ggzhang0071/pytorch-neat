@@ -1,5 +1,5 @@
 apt update 
-apt install graphviz
+apt install -y  graphviz xdg-utils
 pip install -r requirements.txt
 cd .. 
 python setup.py install
